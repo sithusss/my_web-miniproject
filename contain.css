@@ -338,6 +338,110 @@ h5{
     }
 
 }
+@media only screen and (max-width: 450px){
+    
+    #tech-mentors{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(48, 0, 32);
+        font-family: Impact;
+        margin-bottom: 0%;
+    }
+    .welcomenote{
+        
+        padding:0px 35px;
+        position: absolute;
+        margin-left: 50%;
+    }  
+    #wellogo{
+        display: none;
+    }  
+    #sub-part{
+        text-align: center;
+        margin: 0%;
+        font-size: 14px;
+        color: rgb(80, 80, 80);
+        font-family:' sans-serif';
+    }
+    h1{
+        display: none;
+    }
+    .student-login{
+    
+        padding:  5px 0px 5px 0px;
+        height: 30px;
+        text-align: center;
+        margin: 0%;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: rgb(49, 0, 33);
+        background-color: rgba(217, 205, 245, 0.753);
+    }
+    
+  
+    #fac1,#fac2,#fac3,#fac4{
+
+        height:100px;
+        width: 100px;
+        border-radius: 100%;
+        margin-top: 20px;
+        
+        
+    }
+   
+    .pic_link{
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;
+        height: 300px;
+        
+        padding: 5px; 
+    }
+    #bio,#chem,#cs,#engi{
+        padding: 0%;
+        font-size: 14px;
+        font-family: 'Lucida Sans';
+        color: #424110;
+        text-align: center;
+    }
+    .smicon1{
+        width: 80px;
+        margin: 10px;
+        
+        border-radius: 5px;
+    }
+    
+    .smicon2{
+        width: 80px;
+        margin: 10px;
+        
+        border-radius: 5px;
+    }
+    
+    
+    .smicon3{
+        width: 80px;
+        margin: 10px;
+        
+        border-radius: 5px;
+    
+    }
+    
+    .smicon4{
+        width: 80px;
+        margin: 10px;
+        
+        border-radius: 5px;
+    }
+    .icons{
+        padding-left: 5%;
+        background-color: rgb(252, 252, 252);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50% ;
+       
+    }
+
+}
 
 
 
