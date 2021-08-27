@@ -121,6 +121,13 @@ input[type="reset"]:hover{
 .part1 img{
     height: 400px;
 }
+.back{
+    width: 12%;
+    color: rgb(109, 109, 109);
+    background-color: #c1fafcd3;
+    border: 0.25 solid rgba(199, 241, 239, 0.418);
+    border-radius: 5%;
+}
 
 @media only screen and (max-width: 1100px){
    
