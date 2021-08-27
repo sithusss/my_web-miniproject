@@ -390,11 +390,9 @@ h5{
     }
    
     .pic_link{
-        display: grid;
-        grid-template-rows: 25% 25% 25% 25%;
-        height: 300px;
-        
-        padding: 5px; 
+        padding: 5px;
+        display:flex;
+        flex-direction:coloumn;
     }
     #bio,#chem,#cs,#engi{
         padding: 0%;
@@ -434,10 +432,9 @@ h5{
     }
     .icons{
         padding-left: 5%;
-        background-color: rgb(252, 252, 252);
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50% ;
+        background-color: rgb(218, 25, 235);
+        display:flex;
+        flex-direction:coloumn;
        
     }
 
