@@ -197,7 +197,7 @@ footer{
         display: none;
     }
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 450px){
     .conimages{
         display: flex;
         flex-direction: column;
