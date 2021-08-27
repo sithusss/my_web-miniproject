@@ -24,7 +24,7 @@ body{
 
 .icons{
     
-    padding-left:20%;
+    
     background-color: rgb(252, 252, 252);
     display: grid;
     grid-template-columns: 50% 50%;
@@ -107,16 +107,17 @@ h2{
     
 }
 
-h3{
+.h3{
+    font-size: 17px;
     margin: 0%;
     font-family: 'Segoe UI';
     padding: 0px 50px;
     color: rgb(255, 10, 10);
 }
-h5{
+.h5{
     margin: 0%;
     padding:0px 30px;
-    font-size:15pxl;
+    font-size:14px;
     color: rgb(112, 112, 112);
     text-align: left;
 }
@@ -152,9 +153,12 @@ h5{
 .pic_link{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-
-   
+    
+}
+.icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #engi:hover{
@@ -280,7 +284,7 @@ h5{
         width: 100px;
         border-radius: 100%;
         margin-top: 20px;
-        
+        margin-left: 25%;
         
     }
    
@@ -288,7 +292,7 @@ h5{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
-        height: 300px;
+        height: 400px;
         
         padding: 5px; 
     }
@@ -329,55 +333,49 @@ h5{
         border-radius: 5px;
     }
     .icons{
-        padding-left: 5%;
-        background-color: rgb(252, 252, 252);
+        padding-bottom: 5%;
+        background-color: rgb(218, 255, 235);
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50% ;
        
     }
 
+    .pic_link .faculty1{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic_link .faculty2{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic_link .faculty3{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic_link .faculty4{
+        display: flex;
+        flex-direction: column;
+    }
+    .h3{
+        font-size: 14px;
+        margin: 0%;
+        
+        
+    }
+    .h5{
+        margin: 0%;
+        
+        font-size: 12px;
+    }
+   
+   
+   
+
 }
 @media only screen and (max-width: 450px){
     
-    #tech-mentors{
-        text-align: center;
-        font-size: 20px;
-        color: rgb(48, 0, 32);
-        font-family: Impact;
-        margin-bottom: 0%;
-    }
-    .welcomenote{
-        
-        padding:0px 35px;
-        position: absolute;
-        margin-left: 50%;
-    }  
-    #wellogo{
-        display: none;
-    }  
-    #sub-part{
-        text-align: center;
-        margin: 0%;
-        font-size: 14px;
-        color: rgb(80, 80, 80);
-        font-family:' sans-serif';
-    }
-    h1{
-        display: none;
-    }
-    .student-login{
-    
-        padding:  5px 0px 5px 0px;
-        height: 30px;
-        text-align: center;
-        margin: 0%;
-        font-size: 20px;
-        font-family: sans-serif;
-        color: rgb(49, 0, 33);
-        background-color: rgba(217, 205, 245, 0.753);
-    }
-    
+      
   
     #fac1,#fac2,#fac3,#fac4{
 
@@ -385,14 +383,17 @@ h5{
         width: 100px;
         border-radius: 100%;
         margin-top: 20px;
-        
+        margin-left: 0%;
         
     }
    
     .pic_link{
+      display: flex;
+      flex-direction: column;
         padding: 5px;
-        display:flex;
-        flex-direction:coloumns;
+        height: 100%;
+        margin-left: 0%; 
+        align-items: center;
     }
     #bio,#chem,#cs,#engi{
         padding: 0%;
@@ -432,14 +433,38 @@ h5{
     }
     .icons{
         padding-left: 5%;
-        background-color: rgb(218, 25, 235);
-        display:flex;
-        flex-direction:coloumns;
-       
+        background-color: rgb(236, 255, 245);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50% ;
     }
+    .pic_link .faculty1{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic_link .faculty2{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic_link .faculty3{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic_link .faculty4{
+        display: flex;
+        flex-direction: column;
+    }
+    .h3{
+        font-size: 14px;
+        margin: 0%;
+        
+        
+    }
+    .h5{
+        margin: 0%;
+        
+        font-size: 12px;
+    }
+   
 
 }
-
-
-
-
