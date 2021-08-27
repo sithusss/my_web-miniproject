@@ -174,7 +174,12 @@
     
 }
 .links .index{
-    display: none;
+    font-size: 12px;
+    margin-right: 0%;
+}
+.links .dropbtn{
+    font-size: 12px;
+    margin-left: 0%;
 }
 
 
