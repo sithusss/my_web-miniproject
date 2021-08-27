@@ -169,7 +169,7 @@ form{
 	background-color:rgb(242, 242, 242);
 	padding: 20px;}
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 450px){
    
     .nametag{
         align-items: center;
