@@ -174,8 +174,7 @@
     
 }
 .links .index{
-    font-size: 12px;
-    margin-right: 0%;
+    display:none;
 }
 .links .dropbtn{
     font-size: 12px;
