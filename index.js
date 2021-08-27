@@ -8,7 +8,7 @@ function about(){
     window.open("about.html","_self")
 }
 function home(){
-    window.open("index.html","_self")
+    window.open("index.html")
 }
 function bio(){
     window.open("biologin.html","_self")
